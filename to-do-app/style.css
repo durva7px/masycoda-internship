@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1f1f1f 0%, black 100%);
+    color: white;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 100px auto 20px auto;
+}
+
+.container {
+    width: 50%;
+    margin: 30px auto;
+    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 15px;
+    width: 700px;
+    border-radius: 100px;
+    background: linear-gradient(60deg, #25282b 0%, #141414 100%);
+    border: 1px solid #555;
+    color: white;
+}
+
+.sf-panel {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#searchInput{
+    padding: 15px;
+    width: 55%;
+    border-radius: 100px;
+    background: linear-gradient(60deg, #1a1c1f 0%, #30373f 100%);
+    border: 1px solid #555;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(1, 1, 1, 0.2);
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(60deg, #000000 0%, #1e3c72 1%, #2a5298 100%);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+.filters {
+    margin: auto;
+    display: flex;
+}
+
+.filters button {
+    margin-right: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(40, 40, 40, 0.2);
+    padding: 10px 15px 10px 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: linear-gradient(60deg, #323232 0%, #181818 40%, #1C1C1C 150%);
+    background-blend-mode: multiply;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.completed .title {
+    text-decoration: line-through;
+    color: rgb(114, 132, 115);
+}
+
+.actions button {
+    margin-right: 5px;
+}
+
+li {
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.task-details h3 {
+    margin: 0 0 6px;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}

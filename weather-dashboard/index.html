@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="weather-card">
+
+        <h1>Weather Dashboard</h1>
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Search city..."
+            >
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button id="refreshBtn">
+                <i class="fa-solid fa-rotate"></i>
+            </button>
+
+        </div>
+
+        <div id="loading" class="loading"></div>
+
+        <div id="error" class="error"></div>
+
+        <div id="weatherContent"></div>
+
+        <div class="history-section">
+
+            <h3>Recent Searches</h3>
+
+            <div id="history"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
