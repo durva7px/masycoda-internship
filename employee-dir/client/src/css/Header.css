@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+}
+
+.header-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons-panel {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}

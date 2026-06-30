@@ -1,0 +1,67 @@
+.sidebar {
+    font-family: 'nexa', sans-serif;
+    width: clamp(220px, 16vw, 280px);
+    min-width: 220px;
+    height: auto;
+    padding: 1.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    background: rgba(11, 14, 27, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 32px;
+    box-shadow: 0 28px 80px rgba(10, 12, 28, 0.4);
+    backdrop-filter: blur(18px);
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #e9e9ff;
+    letter-spacing: -0.08em;
+}
+
+.navbar {
+    margin-top: 0;
+    color: #c0c7e1;
+    line-height: 2.2;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 0.85rem 1rem;
+    border-radius: 18px;
+    transition: background 0.25s ease, color 0.25s ease;
+    cursor: pointer;
+}
+
+.navbar li:hover,
+.navbar li.active {
+    background: linear-gradient(135deg, rgba(123, 100, 255, 0.18), rgba(87, 190, 255, 0.16));
+    color: #f3f6ff;
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        width: 100%;
+        min-width: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        line-height: 1.2;
+    }
+
+    .navbar li {
+        padding: 0.75rem 0.9rem;
+        border-radius: 16px;
+    }
+}

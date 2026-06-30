@@ -19,3 +19,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ### UI Inspiration
 ([text](https://dribbble.com/shots/27399957-Grove-Employee-Directory-HR-Platform))
+
+### Icons
+[text](https://docs.fontawesome.com/web/setup/get-started)
